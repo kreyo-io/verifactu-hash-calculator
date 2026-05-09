@@ -1,0 +1,39 @@
+name: TypeScript CI
+
+on:
+  push:
+    paths:
+      - 'typescript/**'
+      - '.github/workflows/typescript.yml'
+      - 'shared/**'
+  pull_request:
+    paths:
+      - 'typescript/**'
+      - '.github/workflows/typescript.yml'
+      - 'shared/**'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: typescript
+        
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: 'typescript/package-lock.json'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Build
+      run: npm run build
+      
+    - name: Test
+      run: npm test

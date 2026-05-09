@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{764709B5-9CBE-476C-B29F-8DAF0215E02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kreyo.VerifactuHashCalculator", "src\Kreyo.VerifactuHashCalculator\Kreyo.VerifactuHashCalculator.csproj", "{6D148E3F-841D-428B-86AA-19E9C130AA40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3CC9F888-0964-4A73-9642-9A143B3D079B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kreyo.VerifactuHashCalculator.Tests", "tests\Kreyo.VerifactuHashCalculator.Tests\Kreyo.VerifactuHashCalculator.Tests.csproj", "{BAF71B55-9F33-4F2A-96DD-A2E096984BC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D148E3F-841D-428B-86AA-19E9C130AA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D148E3F-841D-428B-86AA-19E9C130AA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D148E3F-841D-428B-86AA-19E9C130AA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D148E3F-841D-428B-86AA-19E9C130AA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF71B55-9F33-4F2A-96DD-A2E096984BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF71B55-9F33-4F2A-96DD-A2E096984BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF71B55-9F33-4F2A-96DD-A2E096984BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF71B55-9F33-4F2A-96DD-A2E096984BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D148E3F-841D-428B-86AA-19E9C130AA40} = {764709B5-9CBE-476C-B29F-8DAF0215E02D}
+		{BAF71B55-9F33-4F2A-96DD-A2E096984BC2} = {3CC9F888-0964-4A73-9642-9A143B3D079B}
+	EndGlobalSection
+EndGlobal

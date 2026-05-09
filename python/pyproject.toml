@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kreyo-verifactu-hash-calculator"
+version = "0.1.0"
+description = "Open-source reference implementation of the SHA-256 chained hash algorithm required by the Spanish Tax Agency (AEAT) for VeriFactu billing records."
+readme = "../README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Kreyo" }]
+keywords = ["verifactu", "hash", "aeat", "spain", "spanish", "tax", "billing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Software Development :: Libraries",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/kreyo-io/verifactu-hash-calculator"
+Repository = "https://github.com/kreyo-io/verifactu-hash-calculator"
+Issues = "https://github.com/kreyo-io/verifactu-hash-calculator/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "mypy>=1.10"]
+
+[tool.hatch.build.hooks.custom]
+path = "hatch_build.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kreyo_verifactu_hash_calculator"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.mypy]
+strict = true
+files = ["src/kreyo_verifactu_hash_calculator", "tests"]
