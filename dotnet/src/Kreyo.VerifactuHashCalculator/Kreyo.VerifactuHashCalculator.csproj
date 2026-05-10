@@ -8,7 +8,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 
     <PackageId>Kreyo.VerifactuHashCalculator</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Kreyo</Authors>
     <Company>Kreyo</Company>
     <Description>Open-source reference implementation of the SHA-256 chained hash algorithm required by the Spanish Tax Agency (AEAT) for VeriFactu billing records.</Description>
