@@ -1,6 +1,6 @@
 # verifactu-hash-calculator
 
-> 🇺🇸 [English version](./README.md)
+> 🇺🇸 [English version](https://github.com/kreyo-io/verifactu-hash-calculator/blob/main/README.md)
 
 Implementación de referencia open-source del algoritmo de hash encadenado SHA-256 requerido por la Agencia Tributaria (AEAT) para los registros de facturación VeriFactu.
 
@@ -102,7 +102,7 @@ hash_str = compute_registro_alta(input_data)
 
 ## Referencia de API
 
-Para detalles sobre el algoritmo paso a paso, consulta [`docs/algorithm.es.md`](./docs/algorithm.es.md).
+Para detalles sobre el algoritmo paso a paso, consulta [`docs/algorithm.es.md`](https://github.com/kreyo-io/verifactu-hash-calculator/blob/main/docs/algorithm.es.md).
 
 - **Calcular (Compute)**:
   - `computeRegistroAlta(input)`
@@ -177,8 +177,8 @@ Esta librería es mantenida por [Kreyo](https://kreyo.io), una plataforma de API
 
 ## Licencia
 
-Licencia MIT. Ver [LICENSE](./LICENSE).
+Licencia MIT. Ver [LICENSE](https://github.com/kreyo-io/verifactu-hash-calculator/blob/main/LICENSE).
 
 ## Contribuir
 
-Por favor, revisa [CONTRIBUTING.md](./CONTRIBUTING.md) para más detalles.
+Por favor, revisa [CONTRIBUTING.md](https://github.com/kreyo-io/verifactu-hash-calculator/blob/main/CONTRIBUTING.md) para más detalles.
