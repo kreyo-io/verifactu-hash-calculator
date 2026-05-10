@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.1.2
+- **Fix**: Updated relative documentation links to absolute URLs for package registries.
+
 ## 0.1.1 - Initial release
 
 - **Feature**: Initial implementation of the `verifactu-hash-calculator` library in .NET, TypeScript, and Python.

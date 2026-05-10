@@ -1,6 +1,6 @@
 {
   "name": "@kreyo/verifactu-hash-calculator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Open-source reference implementation of the SHA-256 chained hash algorithm required by the Spanish Tax Agency (AEAT) for VeriFactu billing records.",
   "type": "module",
   "main": "./dist/index.cjs",
