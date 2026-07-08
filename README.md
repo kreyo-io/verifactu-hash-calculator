@@ -175,6 +175,11 @@ This repository **only** computes hashes. It does **not**:
 
 This library is maintained by [Kreyo](https://kreyo.io), a Spanish fiscal compliance API platform. If you need full VeriFactu submission (signing, mTLS, AEAT integration, QR, retries) instead of just hash calculation, check out Kreyo VeriFactu.
 
+### Sibling repos in the Kreyo open-source toolkit
+
+- **[nif-validator](https://github.com/kreyo-io/nif-validator)** — validate Spanish NIF / CIF / NIE check digits, in .NET, TypeScript and Python
+- **[facturae-examples](https://github.com/kreyo-io/facturae-examples)** — real, XSD-valid FacturaE 3.2.2 XML invoice examples with their JSON inputs
+
 ## License
 
 MIT License. See [LICENSE](https://github.com/kreyo-io/verifactu-hash-calculator/blob/main/LICENSE).
